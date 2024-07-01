@@ -1,0 +1,17 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+pp_logout:
+    path: /logout
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::redirectAction
+    defaults:
+        route: app_login
+        permanent: true
+access_denied:
+    path: /access-denied
+    controller: App\Controller\ErrorController::accessDenied
+remove_favorite:
+    path: /album/{id}/remove-favorite
+    controller: App\Controller\AlbumController::removeFavorite

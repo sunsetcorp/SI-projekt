@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Comment delete type.
+ */
+
+namespace App\Form;
+
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\FormBuilderInterface;
+
+/**
+ * Form type for deleting Comment entity.
+ */
+class CommentDeleteFormType extends AbstractType
+{
+    /**
+     * Builds the form for Comment entity.
+     *
+     * @param FormBuilderInterface $builder The form builder.
+     * @param array                $options The options for configuring the form.
+     */
+    public function buildForm(FormBuilderInterface $builder, array $options)
+    {
+        $builder
+            ->add('delete', SubmitType::class, [
+                'label' => 'action.delete',
+                'attr' => ['class' => 'btn btn-danger'],
+            ]);
+    }
+}

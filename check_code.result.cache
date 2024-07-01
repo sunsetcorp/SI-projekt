@@ -1,0 +1,70 @@
+   1) src\Command\GenerateAlbumSlugsCommand.php ([33mno_superfluous_phpdoc_tags, phpdoc_summary, phpdoc_trim[39m)
+   2) src\Command\GenerateCategorySlugsCommand.php ([33mclass_attributes_separation[39m)
+   3) src\Controller\AccountController.php ([33mclass_attributes_separation, align_multiline_comment, phpdoc_summary, phpdoc_trim, no_extra_blank_lines[39m)
+   4) src\Controller\AdminController.php ([33mclass_attributes_separation, align_multiline_comment, phpdoc_summary, phpdoc_trim, no_unused_imports, phpdoc_align[39m)
+   5) src\Controller\AlbumController.php ([33mclass_attributes_separation, single_space_around_construct, array_indentation, no_trailing_comma_in_singleline, phpdoc_trim, no_unused_imports, no_extra_blank_lines, phpdoc_align[39m)
+   6) src\Controller\CategoryController.php ([33mclass_attributes_separation, phpdoc_to_comment, phpdoc_trim, no_unused_imports, no_extra_blank_lines[39m)
+   7) src\Controller\CommentController.php ([33malign_multiline_comment, no_unused_imports[39m)
+   8) src\Controller\DefaultController.php ([33mphpdoc_summary[39m)
+   9) src\Controller\ErrorController.php ([33mphpdoc_summary[39m)
+  10) src\Controller\RegistrationController.php ([33mphpdoc_summary[39m)
+  11) src\Controller\SecurityController.php ([33mclass_attributes_separation, phpdoc_summary[39m)
+  12) src\Controller\TagController.php ([33mclass_attributes_separation, align_multiline_comment[39m)
+  13) src\DataFixtures\AppFixtures.php ([33mphpdoc_summary[39m)
+  14) src\DataFixtures\UserFixtures.php ([33mincrement_style, phpdoc_summary[39m)
+  15) src\Entity\Album.php ([33mclass_attributes_separation, single_space_around_construct, no_superfluous_phpdoc_tags, phpdoc_summary, phpdoc_separation, phpdoc_trim, no_blank_lines_after_phpdoc, no_extra_blank_lines[39m)
+  16) src\Entity\Category.php ([33mclass_attributes_separation, single_space_around_construct, no_superfluous_phpdoc_tags, phpdoc_trim, no_blank_lines_after_phpdoc, no_extra_blank_lines[39m)
+  17) src\Entity\Comment.php ([33mclass_attributes_separation, no_superfluous_phpdoc_tags, phpdoc_trim, no_extra_blank_lines[39m)
+  18) src\Entity\Enum\UserRole.php ([33mclass_attributes_separation, align_multiline_comment[39m)
+  19) src\Entity\Tag.php ([33mclass_attributes_separation, single_space_around_construct, no_superfluous_phpdoc_tags, phpdoc_trim, no_unused_imports, no_blank_lines_after_phpdoc[39m)
+  20) src\Entity\User.php ([33mclass_attributes_separation, no_superfluous_phpdoc_tags, phpdoc_trim, phpdoc_trim_consecutive_blank_line_separation[39m)
+  21) src\Form\Type\AccountType.php ([33malign_multiline_comment, phpdoc_annotation_without_dot[39m)
+  22) src\Form\Type\AlbumType.php ([33mclass_attributes_separation, array_indentation, no_unused_imports, no_extra_blank_lines[39m)
+  23) src\Form\Type\CategoryType.php ([33marray_indentation[39m)
+  24) src\Form\Type\CommentDeleteType.php ([33mphpdoc_annotation_without_dot[39m)
+  25) src\Form\Type\CommentType.php ([33mphpdoc_annotation_without_dot[39m)
+  26) src\Form\Type\RegistrationFormType.php ([33mphpdoc_annotation_without_dot[39m)
+  27) src\Form\Type\TagType.php ([33marray_indentation[39m)
+  28) src\Form\Type\UserEditType.php ([33mclass_attributes_separation, phpdoc_annotation_without_dot[39m)
+  29) src\Repository\AdminRepository.php ([33mclass_attributes_separation, phpdoc_annotation_without_dot[39m)
+  30) src\Repository\AlbumRepository.php ([33mclass_attributes_separation, fully_qualified_strict_types, no_superfluous_phpdoc_tags, nullable_type_declaration_for_default_null_value, phpdoc_trim_consecutive_blank_line_separation[39m)
+  31) src\Repository\CategoryRepository.php ([33mclass_attributes_separation, align_multiline_comment, nullable_type_declaration_for_default_null_value, yoda_style, types_spaces[39m)
+  32) src\Repository\CommentRepository.php ([33mclass_attributes_separation[39m)
+  33) src\Repository\TagRepository.php ([33mno_superfluous_phpdoc_tags, phpdoc_trim[39m)
+  34) src\Repository\UserRepository.php ([33mclass_attributes_separation[39m)
+  35) src\Security\AccessDeniedHandler.php ([33mclass_attributes_separation, phpdoc_summary[39m)
+  36) src\Security\AuthenticationEntryPoint.php ([33mclass_attributes_separation, phpdoc_summary[39m)
+  37) src\Security\LoginFormAuthenticator.php ([33mclass_attributes_separation[39m)
+  38) src\Security\Voter\AlbumVoter.php ([33mclass_attributes_separation, yoda_style[39m)
+  39) src\Service\AccountService.php ([33mclass_attributes_separation, phpdoc_to_comment, no_trailing_comma_in_singleline, no_extra_blank_lines[39m)
+  40) src\Service\AccountServiceInterface.php ([33mphpdoc_summary[39m)
+  41) src\Service\AdminService.php ([33mclass_attributes_separation[39m)
+  42) src\Service\AdminServiceInterface.php ([33mphpdoc_summary[39m)
+  43) src\Service\AlbumService.php ([33mclass_attributes_separation, align_multiline_comment, phpdoc_summary[39m)
+  44) src\Service\AlbumServiceInterface.php ([33mclass_attributes_separation, align_multiline_comment, phpdoc_summary, phpdoc_separation[39m)
+  45) src\Service\CategoryService.php ([33mclass_attributes_separation, align_multiline_comment, fully_qualified_strict_types, phpdoc_summary[39m)
+  46) src\Service\CategoryServiceInterface.php ([33mclass_attributes_separation, align_multiline_comment[39m)
+  47) src\Service\CommentService.php ([33mphpdoc_summary[39m)
+  48) src\Service\CommentServiceInterface.php ([33mclass_attributes_separation, align_multiline_comment, phpdoc_summary[39m)
+  49) src\Service\RegistrationService.php ([33mno_superfluous_phpdoc_tags, phpdoc_summary, phpdoc_trim, no_extra_blank_lines[39m)
+  50) src\Service\RegistrationServiceInterface.php ([33mphpdoc_summary[39m)
+  51) src\Service\SecurityService.php ([33mclass_attributes_separation, phpdoc_summary[39m)
+  52) src\Service\SecurityServiceInterface.php ([33mphpdoc_summary[39m)
+  53) src\Service\TagService.php ([33mclass_attributes_separation, align_multiline_comment, phpdoc_summary, yoda_style, no_unused_imports[39m)
+  54) src\Service\TagServiceInterface.php ([33mclass_attributes_separation, align_multiline_comment[39m)
+
+Found 54 of 56 files that can be fixed in 3.663 seconds, 18.00 MB memory used
+ ------- -------- ---- ---------------------- 
+ [32m State [39m [32m Domain [39m [32m Id [39m [32m Message Preview (en) [39m 
+ ------- -------- ---- ---------------------- 
+
+ ------- -------- ---- ---------------------- ------------------------------- 
+ [32m State [39m [32m Domain [39m [32m Id [39m [32m Message Preview (pl) [39m [32m Fallback Message Preview (en) [39m 
+ ------- -------- ---- ---------------------- ------------------------------- 
+
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] The version "latest" couldn't be reached, there are no registered migrations.                                  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+   [33m>[39m [32mpurging database[39m
